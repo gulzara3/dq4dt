@@ -1,0 +1,5 @@
+dim,sev,d_inference_mean,d_inference_std,d_train_mean,d_train_std,d_both_mean,d_both_std
+accuracy_bias,3,6.08,2.04,10.05,9.15,6.16,11.75
+accuracy_bias,5,16.81,3.9,9.06,5.3,5.69,7.58
+completeness_MNAR,3,1.05,1.31,-1.74,0.08,-0.91,0.95
+completeness_MNAR,5,12.47,2.15,16.36,13.98,17.19,13.99

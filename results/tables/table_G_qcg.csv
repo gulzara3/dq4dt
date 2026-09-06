@@ -1,0 +1,5 @@
+dim,eta_qcg_off,eta_qcg_on,mean_diff,p_raw,p_holm
+accuracy_bias,0.41,0.27,-0.14,0.25,1.0
+completeness_MNAR,0.95,1.12,0.17,0.875,1.0
+consistency,0.7,0.56,-0.14,0.375,1.0
+drift,0.02,0.06,0.04,0.875,1.0

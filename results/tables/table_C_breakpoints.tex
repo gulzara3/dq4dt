@@ -1,0 +1,58 @@
+\begin{table}
+\caption{Segmented-regression breakpoints (NaN: adequately linear).}
+\label{tab:C_breakpoints}
+\begin{tabular}{lllrr}
+\toprule
+subset & model & dim & breakpoint & sse_gain \\
+\midrule
+FD001 & lstm & accuracy & 0.325000 & 0.890000 \\
+FD001 & pinn & accuracy & 0.463000 & 0.920000 \\
+FD001 & transformer & accuracy & 0.325000 & 0.990000 \\
+FD004 & lstm & accuracy & 0.325000 & 0.780000 \\
+FD004 & pinn & accuracy & 0.325000 & 0.840000 \\
+FD004 & transformer & accuracy & 0.188000 & 0.730000 \\
+FD001 & lstm & accuracy\_bias & 0.188000 & 0.930000 \\
+FD001 & pinn & accuracy\_bias & 0.188000 & 0.950000 \\
+FD001 & transformer & accuracy\_bias & 0.188000 & 0.720000 \\
+FD004 & lstm & accuracy\_bias & 0.325000 & 0.920000 \\
+FD004 & pinn & accuracy\_bias & 0.188000 & 0.770000 \\
+FD004 & transformer & accuracy\_bias & 0.188000 & 0.920000 \\
+FD001 & lstm & completeness\_MAR & 0.388000 & 0.400000 \\
+FD001 & pinn & completeness\_MAR & 0.388000 & 0.700000 \\
+FD001 & transformer & completeness\_MAR & 0.050000 & 0.300000 \\
+FD004 & lstm & completeness\_MAR & 0.391000 & 0.970000 \\
+FD004 & pinn & completeness\_MAR & 0.278000 & 0.630000 \\
+FD004 & transformer & completeness\_MAR & 0.164000 & 0.760000 \\
+FD001 & lstm & completeness\_MCAR & 0.276000 & 0.850000 \\
+FD001 & pinn & completeness\_MCAR & 0.276000 & 0.840000 \\
+FD001 & transformer & completeness\_MCAR & 0.276000 & 0.730000 \\
+FD004 & lstm & completeness\_MCAR & 0.387000 & 0.400000 \\
+FD004 & pinn & completeness\_MCAR & 0.387000 & 0.320000 \\
+FD004 & transformer & completeness\_MCAR & 0.387000 & 0.250000 \\
+FD001 & lstm & completeness\_MNAR & 0.390000 & 0.990000 \\
+FD001 & pinn & completeness\_MNAR & 0.390000 & 0.930000 \\
+FD001 & transformer & completeness\_MNAR & 0.390000 & 0.920000 \\
+FD004 & lstm & completeness\_MNAR & 0.388000 & 0.990000 \\
+FD004 & pinn & completeness\_MNAR & 0.388000 & 0.950000 \\
+FD004 & transformer & completeness\_MNAR & 0.388000 & 0.980000 \\
+FD001 & lstm & consistency & 0.410000 & 0.880000 \\
+FD001 & pinn & consistency & NaN & 0.150000 \\
+FD001 & transformer & consistency & 0.410000 & 0.300000 \\
+FD004 & lstm & consistency & 0.410000 & 0.890000 \\
+FD004 & pinn & consistency & 0.410000 & 0.950000 \\
+FD004 & transformer & consistency & 0.410000 & 0.960000 \\
+FD001 & lstm & drift & 0.100000 & 0.800000 \\
+FD001 & pinn & drift & 0.325000 & 0.930000 \\
+FD001 & transformer & drift & 0.325000 & 0.940000 \\
+FD004 & lstm & drift & 0.775000 & 0.560000 \\
+FD004 & pinn & drift & 0.775000 & 0.600000 \\
+FD004 & transformer & drift & 0.775000 & 0.670000 \\
+FD001 & lstm & timeliness & 0.769000 & 0.710000 \\
+FD001 & pinn & timeliness & 0.154000 & 0.710000 \\
+FD001 & transformer & timeliness & 0.769000 & 0.210000 \\
+FD004 & lstm & timeliness & 0.154000 & 0.840000 \\
+FD004 & pinn & timeliness & 0.154000 & 0.930000 \\
+FD004 & transformer & timeliness & 0.154000 & 0.620000 \\
+\bottomrule
+\end{tabular}
+\end{table}

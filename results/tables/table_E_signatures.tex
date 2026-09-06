@@ -1,0 +1,22 @@
+\begin{table}
+\caption{Architecture elasticity-signature tests: discovery (FD001) vs. confirmation (FD004), paired Wilcoxon over seeds, Holm-adjusted.}
+\label{tab:E_signatures}
+\begin{tabular}{llllrrrrr}
+\toprule
+subset & dim & robust & fragile & eta_robust & eta_fragile & confirmed & p_raw & p_holm \\
+\midrule
+FD001 & consistency & pinn & lstm & 0.970000 & 2.210000 & True & 0.031200 & 0.187500 \\
+FD001 & consistency & pinn & transformer & 0.970000 & 1.760000 & True & 0.031200 & 0.187500 \\
+FD001 & drift & transformer & lstm & 0.970000 & 2.040000 & True & 0.031200 & 0.187500 \\
+FD001 & drift & transformer & pinn & 0.970000 & 2.240000 & True & 0.031200 & 0.187500 \\
+FD001 & accuracy\_bias & lstm & transformer & 2.220000 & 2.580000 & True & 0.218800 & 0.437500 \\
+FD001 & completeness\_MNAR & lstm & transformer & 1.430000 & 1.540000 & True & 0.406200 & 0.437500 \\
+FD004 & consistency & pinn & lstm & 1.350000 & 3.200000 & True & 0.031200 & 0.187500 \\
+FD004 & consistency & pinn & transformer & 1.350000 & 3.330000 & True & 0.031200 & 0.187500 \\
+FD004 & drift & transformer & lstm & 2.420000 & 3.490000 & True & 0.031200 & 0.187500 \\
+FD004 & drift & transformer & pinn & 2.420000 & 3.600000 & True & 0.031200 & 0.187500 \\
+FD004 & accuracy\_bias & lstm & transformer & 1.260000 & 1.610000 & True & 0.031200 & 0.187500 \\
+FD004 & completeness\_MNAR & lstm & transformer & 1.400000 & 1.540000 & True & 0.093800 & 0.187500 \\
+\bottomrule
+\end{tabular}
+\end{table}

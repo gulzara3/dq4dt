@@ -1,0 +1,5 @@
+subset,model,dim_a,dim_b,mean_gap,p_raw,r_rb,verdict,p_holm
+FD001,lstm,completeness_MNAR,timeliness,-2.7734633684158325,0.00390625,-1.0,SUB-additive,0.015625
+FD001,transformer,completeness_MNAR,timeliness,-0.12318968772888184,0.52734375,0.0,SUB-additive,0.52734375
+FD001,lstm,accuracy_bias,consistency,7.585122227668762,0.0390625,0.7222222222222222,SUPER-additive,0.1171875
+FD001,transformer,accuracy_bias,consistency,2.4087307453155518,0.19140625,0.3888888888888889,SUPER-additive,0.3828125

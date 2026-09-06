@@ -1,0 +1,14 @@
+\begin{table}
+\caption{Interaction gaps with one-sided Wilcoxon $p$ (raw and Holm-adjusted) and matched-pairs rank-biserial effect size (n=8 seeds).}
+\label{tab:D_interactions}
+\begin{tabular}{llllrrrlr}
+\toprule
+subset & model & dim_a & dim_b & mean_gap & p_raw & r_rb & verdict & p_holm \\
+\midrule
+FD001 & lstm & completeness\_MNAR & timeliness & -2.770000 & 0.003900 & -1.000000 & SUB-additive & 0.015600 \\
+FD001 & transformer & completeness\_MNAR & timeliness & -0.120000 & 0.527300 & 0.000000 & SUB-additive & 0.527300 \\
+FD001 & lstm & accuracy\_bias & consistency & 7.590000 & 0.039100 & 0.720000 & SUPER-additive & 0.117200 \\
+FD001 & transformer & accuracy\_bias & consistency & 2.410000 & 0.191400 & 0.390000 & SUPER-additive & 0.382800 \\
+\bottomrule
+\end{tabular}
+\end{table}

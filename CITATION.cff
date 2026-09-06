@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software or benchmark, please cite it as below."
+title: "Data-Quality Elasticity: Benchmarking and Monitoring Digital-Twin Reliability Under Sensing Degradation"
+version: 1.0.0
+date-released: 2026-09-06
+license: MIT
+repository-code: "https://github.com/gulzara3/dq4dt"
+authors:
+  - family-names: "Alam"
+    given-names: "Gulzar"
+    affiliation: "AICC, Ulster University, UK"
+    orcid: "https://orcid.org/0000-0002-8169-0386"
+keywords:
+  - digital twin
+  - data quality
+  - prognostics and health management
+  - remaining useful life
+  - reliability benchmark
+  - uncertainty quantification
+preferred-citation:
+  type: article
+  title: "Data-Quality Elasticity: Benchmarking and Monitoring Digital-Twin Reliability Under Sensing Degradation"
+  authors:
+    - family-names: "Ian"
+      given-names: "McChesney"
+  journal: "IEEE Transactions on Reliability"
+  year: 2027
+  notes: "Submitted to the Special Section on Reliability for Robotics, Autonomous Systems, Digital Twins, and Agentic AI. Update with volume, pages, and DOI on publication."

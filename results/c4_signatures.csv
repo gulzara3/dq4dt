@@ -1,0 +1,13 @@
+subset,dim,robust,fragile,eta_robust,eta_fragile,confirmed,p_raw,p_holm
+FD001,consistency,pinn,lstm,0.97,2.21,True,0.03125,0.1875
+FD001,consistency,pinn,transformer,0.97,1.76,True,0.03125,0.1875
+FD001,drift,transformer,lstm,0.97,2.04,True,0.03125,0.1875
+FD001,drift,transformer,pinn,0.97,2.24,True,0.03125,0.1875
+FD001,accuracy_bias,lstm,transformer,2.22,2.58,True,0.21875,0.4375
+FD001,completeness_MNAR,lstm,transformer,1.43,1.54,True,0.40625,0.4375
+FD004,consistency,pinn,lstm,1.35,3.2,True,0.03125,0.1875
+FD004,consistency,pinn,transformer,1.35,3.33,True,0.03125,0.1875
+FD004,drift,transformer,lstm,2.42,3.49,True,0.03125,0.1875
+FD004,drift,transformer,pinn,2.42,3.6,True,0.03125,0.1875
+FD004,accuracy_bias,lstm,transformer,1.26,1.61,True,0.03125,0.1875
+FD004,completeness_MNAR,lstm,transformer,1.4,1.54,True,0.09375,0.1875

@@ -1,0 +1,3 @@
+dim,brk_FD001,brk_FD004,spread,consistent
+completeness_MNAR,0.39,0.388,0.002,True
+accuracy_bias,0.188,0.234,0.046,True
