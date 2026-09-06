@@ -1,4 +1,4 @@
-# DQ4DT: Data-Quality Elasticity for Digital-Twin Prognostics
+# Data-Quality Elasticity: Benchmarking and Monitoring Digital-Twin Reliability Under Sensing Degradation
 
 A benchmark and metric framework for measuring how sensor data quality affects the reliability of digital-twin prognostic models.
 
